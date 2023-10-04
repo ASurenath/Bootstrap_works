@@ -9,73 +9,75 @@
 
 </head>
 
+
 <body>
-    <div class="container-md w-75 bg-light rounded-3 border my-3 p-3 ps-4 shadow text-primary-emphasis">
+    <div class="container text-primary-emphasis">
         <h1 class="text-center">Register form</h1>
-        <form action="">
+        <form action="" class="bg-light rounded-3 border my-3 p-3 ps-4 shadow">
+            <!-- Name -->
             <label for="n1" class="form-label">Name</label><br>
             <input type="text" id="n1" class="form-control"><br>
+
+            <!-- EmailID -->
             <label for="e1" class="form-label">Email ID</label><br>
             <input type="email" name="" id="e1"  class="form-control"><br>
+            <!-- Age -->
             <label for="a1" class="form-label">Age</label><br>
             <input type="number" id="a1"  class="form-control"><br>
+            <!-- DOB -->
             <label for="d1" class="form-label">Date of birth</label><br>
             <input type="date" id="d1"  class="form-control"><br>
-            <label for="" class="form-label">Gender</label><br>
+
+            <!-- Gender -->
+            <label for="g1" class="form-label">Gender</label><br>
             
-            <span>
                 <input type="radio" id="male1" name="g1"  class="form-check-input">
-                <label for="male1" class="form-check-label">Male &nbsp;&nbsp;</label>
-            </span>
+                <label for="male1" class="form-check-label">Male &nbsp;&nbsp;</label>         
             
-            <span>
                 <input type="radio" id="female1" name="g1" class="form-check-input" >
                 <label for="female1" class="form-check-label">Female &nbsp;&nbsp;</label>
-            </span>
-            
-            <span>
+         
                 <input type="radio" id="other1" name="g1"  class="form-check-input">
                 <label for="other1" class="form-label">Other</label>
-            </span>
+            
             <br>
-
+            <!-- Phone number -->
             <label for="p1" class="form-label">Phone number</label><br>
             <input type="tel" id="p1"  class="form-control"><br>
+
+            <!-- Address -->
             <label for="ad1" class="form-label">address</label><br>
-            <textarea  class="form-control" name="" placeholder="Add your complete address here" id="ad1" cols="10" rows="5"></textarea><br>
+            <textarea  class="form-control" name="" placeholder="Add your complete address here" id="ad1" rows="5"></textarea><br>
+            
+            <!-- Course selection -->
             <label for="check" class="form-label">Select your courses</label><br>
+
             <input type="checkbox" class="form-check-input" id="c1" name="check">
             <label for="c1" class="form-check-label">Python</label><br>
+
             <input type="checkbox" class="form-check-input" id="c2" name="check">
             <label for="c2" class="form-check-label">MEARN</label><br>
+
             <input type="checkbox" class="form-check-input" id="c3" name="check">
             <label for="c3" class="form-check-label">Testing</label><br>
+
+            <!-- Location -->
             <label for="l1" class="form-label mt-2">Select location</label>
             <select name="" id="l1" class="form-select">
                 <option value="">Calicut</option>
                 <option value="">Cochin</option>
             </select> <br>
+
+            <!-- Photo upload -->
             <label for="f1" class="form-label mt-2">Attach your Passport size photo</label> &nbsp; &nbsp;
             <input type="file" id="f1" class="form-file mb-2"> <br>
-            <button class="btn btn-success m-3 ms-5">Register</button><br>
-
-            <!-- <h3>Other examples</h3>
-            <input type="color" placeholder="#BB0202">
-            <input type="month">
-            <input type="button" value="submit">
-            <br>
-            
-            <label for="range" class="form-label">Range</label><br>
-    <input type="range" name="" id="range" value="10" class="form-range w-25">
-    <br><br>
-    <input type="datetime-local" name="" id="">
-    <input type="submit" value="submit">
-    <br><br>
-    <input type="reset" value="Clear"> -->
-    
+           
+            <!-- Submit -->
+            <button class="btn btn-success m-3 ms-5">Register</button><br>   
     
         </form>
     </div>
+
 </body>
 
 </html>
